@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XML>
+  <User>
+    <Client>C601</Client>
+  </User>
+  <C601>
+    <ASHost>sapdev.liphing.com</ASHost>
+    <SysNo>00</SysNo>
+    <SysName>DR1</SysName>
+    <User>HX.TAN</User>
+    <Lang>1</Lang>
+  </C601>
+  <C800>
+    <ASHost>sapprd.liphing.com</ASHost>
+    <SysNo>00</SysNo>
+    <SysName>PR1</SysName>
+    <User>TONY.C</User>
+    <Lang>E</Lang>
+  </C800>
+</XML>
