@@ -117,5 +117,10 @@ namespace HelpDesk.WebService
 
             return JsonConvert.SerializeObject(value);
         }
+
+        public string TestNewMethod()
+        {
+            return string.Empty;
+        }
     }
 }
