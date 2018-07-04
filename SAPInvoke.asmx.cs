@@ -13,17 +13,17 @@ using System.Collections.Generic;
 namespace HelpDesk.WebService
 {
     /// <summary>
-    /// SAPInvoke 鐨勬憳瑕佽鏄�
+    /// SAPInvoke 的摘要说明
     /// </summary>
     [WebService(Namespace = "http://helpdesk.liphing.com/SAPInvoke/", Name = "SAPInvoke")]
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
-    // 鑻ヨ鍏佽浣跨敤 ASP.NET AJAX 浠庤剼鏈腑璋冪敤姝� Web 鏈嶅姟锛岃鍙栨秷娉ㄩ噴浠ヤ笅琛屻�� 
+    // 若要允许使用 ASP.NET AJAX 从脚本中调用此 Web 服务，请取消注释以下行。 
     // [System.Web.Script.Services.ScriptService]
     public class SAPInvoke : System.Web.Services.WebService
     {
 
-        [WebMethod(Description = "SAP RFC 娴嬭瘯鏈嶅姟")]
+        [WebMethod(Description = "SAP RFC 测试服务")]
         public string Z_RFC_USER(string zuserno, string zpassword)
         {
             Z_RFC_USER value = new Z_RFC_USER();
@@ -92,7 +92,7 @@ namespace HelpDesk.WebService
         }
 
 
-        [WebMethod(Description = "杈撳叆瀹㈡埛鏂欏彿锛岃鍙栫浉搴� SAP 鏂欏彿")]
+        [WebMethod(Description = "输入客户料号，读取相应 SAP 料号")]
         public string GetSAPNoByCustomerPN(string customerpn)
         {
             SingleValue value = new SingleValue();
@@ -121,6 +121,7 @@ namespace HelpDesk.WebService
         public string TestNewMethod()
         {
         	// test adding
+            // test adding2
             return string.Empty;
         }
     }
