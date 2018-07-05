@@ -125,6 +125,7 @@ namespace HelpDesk.WebService
             // test adding3
             // test adding by eclipse
             // test adding by eclipse2
+            // test adding by vs2017
             return string.Empty;
         }
     }
